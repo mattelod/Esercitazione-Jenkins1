@@ -19,7 +19,7 @@ public class AreeTest {
 	@Test
 	public void testQuadrato() {
 		int a = 10;
-		int valoreAtteso = 99;
+		int valoreAtteso = 100;
 		int valoreCalcolato = Aree.quadrato(a);
 		assertEquals(valoreAtteso, valoreCalcolato);
 	}
