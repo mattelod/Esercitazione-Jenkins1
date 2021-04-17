@@ -15,7 +15,7 @@ public class FirefoxTest {
 
 	@Test
 	public void test() {
-		System.setProperty("webdriver.gecko.driver", "/Users/matteo/Documents/CloudDevOps/geckodriver/geckodriver");
+		//System.setProperty("webdriver.gecko.driver", "/Users/matteo/Documents/CloudDevOps/geckodriver/geckodriver");
 		WebDriver driver = new FirefoxDriver();
 		WebDriverWait wait = new WebDriverWait(driver,10);
 				try {
